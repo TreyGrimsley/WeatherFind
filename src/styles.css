@@ -1,0 +1,99 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+header{
+    padding: 15px 0 15px 0;
+    font-size: 50px;
+    background-color: rgb(71, 157, 214);
+    color: white;
+    box-shadow: 2px 1px 3px black;
+    position: relative;
+    text-shadow: 1px 2px 2px black;
+    z-index: 1;
+}
+
+form{
+    background-color: lightgray;
+    box-shadow: 3px 3px 3px dimgray;
+    position: relative;
+}
+
+input{
+    width: 20rem;
+    height: 1rem;
+    text-align: center;
+}
+
+form p{
+    font-size: 25px;
+}
+
+fieldset{
+    border-style: none;
+}
+
+#weather-update{
+    width: 100%;
+    min-height: 37rem;
+    background-color: rgb(71, 157, 214);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#weather-descriptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 35px;
+}
+
+.weather-card{
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem 3rem;
+    background-color: white;
+    border: 3px solid navy;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.weather-card h1{
+    font-size: 25px;
+}
+.weather-card p{
+    font-size: 35px;
+    
+}
+#current-temp{
+
+}
+#feels-like{
+
+}
+#high{
+padding-bottom: 4rem;
+}
+#low{
+
+}
