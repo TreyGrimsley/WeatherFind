@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherFind </title>
+    
+    
+<script defer src="main.js"></script></head>
+<body>
+    
+    <header>WeatherFind</header>
+    
+    <form action="template.html">
+        <fieldset>
+            <p>Search any area. Find its weather</p>
+            <input type="text" placeholder="Dillon South Carolina" class="location-input">
+        </fieldset>
+    </form>
+    <!--In js, Make a sun with white clouds appear if nice day
+    If cold, make sun disappear and make clouds dark -->
+    <div id="weather-update">
+        <div id="weather-descriptions">
+            <p id="conditions"> </p>
+            <p id="wind"></p>
+        </div>
+        
+        <div class="weather-card">
+            <h1>Current Temperature:</h1>
+            <p class="temp-number" id="current-temp"></p>
+        </div>
+        <div class="weather-card">
+            <h1>Feels Like:</h1>
+            <p id="feels-like"></p>
+        </div>
+        <div class="weather-card">
+            <h1>Highest Today:</h1>
+            <p id="high"></p>
+            <h1>Lowest Today:</h1>
+            <p id="low"></p>
+        </div>
+    </div>
+
+</body>
+</html>
